@@ -1,0 +1,247 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{amsmath, amssymb, graphicx}
+\title{Appleby Quantum Gravity Framework}
+\author{Ethan G. Appleby}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+A quantum gravity framework that uses a GR interpretation over hyper luminal quantum effects as sub luminal.
+\end{abstract}
+
+\section{Model Formulation}
+
+\subsection{Invariant Rate of Entropy is corralation range determined via c_eff}
+
+\begin{equation}
+E = \sqrt{\frac{c^5 \cdot \hbar}{4\pi G}} \cdot \sqrt{\ln(N)}
+\end{equation}
+
+where
+
+\begin{equation}
+\ln(N) = \frac{A \cdot c^3}{4G \cdot \hbar}
+\end{equation}
+
+So
+
+\begin{equation}
+E = \sqrt{\frac{c^5 \cdot \hbar}{4\pi G}} \cdot \sqrt{\frac{A \cdot c^3}{4G \cdot \hbar}}
+\end{equation}
+
+Simplifying further:
+
+\begin{equation}
+E = \sqrt{\frac{c^8 \cdot A}{16\pi G^2}}
+\end{equation}
+
+Using
+
+\begin{equation}
+A = 16\pi \cdot \left(\frac{GM}{c^2}\right)^2
+\end{equation}
+
+Substituting \( A \) into the energy equation:
+
+\begin{equation}
+E = \sqrt{\frac{c^8 \cdot 16\pi \cdot \left(\frac{G^2 \cdot M^2}{c^4}\right)}{16\pi G^2}}
+\end{equation}
+
+Simplifying further:
+
+\begin{equation}
+E = \sqrt{\frac{c^8 \cdot G^2 \cdot M^2}{c^4 \cdot G^2}} = \sqrt{c^4 \cdot M^2} = c^2 \cdot M
+\end{equation}
+
+Thus, re-arranging,
+
+\begin{equation}
+E = mc^2
+\end{equation}
+
+\subsection{Area of a Horizon}
+\begin{equation}
+\frac{A}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{4G\hbar \ln(N_{\text{rest}})}{c^3}
+\end{equation}
+
+Where \( A_{\text{Planck}} \) is the Planck area:
+
+\begin{equation}
+\frac{A}{\sqrt{1 - \frac{v^2}{c^2}}} = A_{\text{Planck}}
+\end{equation}
+
+So,
+
+\begin{equation}
+\sqrt{1 - \frac{v^2}{c^2}} = \frac{A_{\text{Planck}}}{A}
+\end{equation}
+
+and
+
+\begin{equation}
+\frac{v^2}{c^2} = 1 - \left(\frac{A_{\text{Planck}}}{A}\right)^2
+\end{equation}
+
+Thus,
+
+\begin{equation}
+v = c \cdot \sqrt{1 - \left(\frac{A_{\text{Planck}}}{A}\right)^2}
+\end{equation}
+
+\subsection{Black Hole Mergers with Negentropy}
+
+The area after a merger:
+
+\begin{equation}
+A_1 + A_2 = A_3 \text{ (or less } A_3)
+\end{equation}
+
+\subsection{Curvature Tensor}
+\begin{equation}
+G_{\mu\nu} = \rho \cdot \left[ \frac{c^2 \cdot H_{\text{obs}}^2 \cdot \Delta_H}{H^3} - \frac{8 \pi G}{c^4} + \left(4 \pi H_{\text{universe}}^2\right)^2 \right]
+\end{equation}
+
+\subsection{Effective Speed of Light}
+\begin{equation}
+c_{\text{eff}} = c \cdot \frac{H_{\text{obs}}}{H}
+\end{equation}
+
+\subsection{Gravitational Potential Energy}
+\begin{equation}
+U_{\text{Appleby}} = -\frac{c_{\text{eff}}^2}{8 \pi G} \cdot G_{\mu\nu} \cdot V
+\end{equation}
+
+\subsection{Modified Energy Adjusted for the Universe’s Size}
+\begin{equation}
+E_{\text{mod}} = m \cdot c^2 \cdot \left(\frac{H_{\text{obs}}}{H}\right)^2
+\end{equation}
+
+\subsection{Energy Associated with Dark Energy}
+\begin{equation}
+E_{\text{DE}} = 0.68 \cdot \sqrt{\frac{c^5 \cdot \hbar}{4 \pi G}} \cdot \sqrt{\frac{A_{\text{universe}} \cdot c^3}{4G \cdot \hbar}}
+\end{equation}
+
+\subsection{Energy Associated with Dark Matter}
+\begin{equation}
+E_{\text{DM}} = 0.27 \cdot \sqrt{\frac{c^5 \cdot \hbar}{4 \pi G}} \cdot \sqrt{\frac{A_{\text{universe}} \cdot c^3}{4G \cdot \hbar}}
+\end{equation}
+
+\subsection{Energy Associated with Black Holes/Ordinary Matter}
+\begin{equation}
+E_{\text{BH}} = 0.05 \cdot \sqrt{\frac{c^5 \cdot \hbar}{4 \pi G}} \cdot \sqrt{\frac{A_{\text{universe}} \cdot c^3}{4G \cdot \hbar}}
+\end{equation}
+
+\subsection{Number of Microstates Related to the Area of the Observable Universe}
+\begin{equation}
+\ln(N_{\text{universe}}) = \frac{A_{\text{universe}} \cdot c^3}{4G \cdot \hbar}
+\end{equation}
+
+\subsection{Area of the Observable Universe}
+\begin{equation}
+A_{\text{universe}} = 4 \pi \cdot H_{\text{universe}}^2
+\end{equation}
+
+\subsection{Entropy for the Observable Universe (Bekenstein-Hawking Entropy)}
+\begin{equation}
+S_{\text{BH}} = \frac{k_B \cdot A_{\text{universe}} \cdot c^3}{4 \hbar \cdot G}
+\end{equation}
+
+\subsection{Alpha Expression}
+\begin{equation}
+\alpha = A_{\text{universe}}
+\end{equation}
+
+\subsection{Shrinking of the Universe Given an Energy Density Tied to N}
+
+Original Horizon of the Universe:
+\begin{equation}
+H_{\text{universe}} = \sqrt{\frac{3}{8 \pi G \rho}}
+\end{equation}
+
+New Energy Density After Change:
+\begin{equation}
+\rho_{\text{new}} = \sqrt{\frac{c^5 \cdot \hbar}{4 \pi G}} \cdot \frac{\sqrt{\ln(N_{\text{new}})}}{V_{\text{new}}}
+\end{equation}
+
+New Horizon After Shrinkage:
+\begin{equation}
+H_{\text{shrink}} = \sqrt{\frac{3}{8 \pi G \rho_{\text{new}}}}
+\end{equation}
+
+\subsection{Curvature Converted to Our Universe Standard}
+\begin{equation}
+G_{\mu\nu_{\text{standard}}} = -\frac{8 \pi G \cdot U_{\text{Appleby}}}{m \cdot c^2 \cdot \left(\frac{H_{\text{obs}}}{H}\right)^2 \cdot V}
+\end{equation}
+
+\subsection{Dark Matter as Curvature}
+
+Curvature Tensor Related to Dark Matter:
+\begin{equation}
+G_{\text{DM}} = \frac{\rho_{\text{DM}} \cdot S_{\text{BH}}}{c_{\text{eff}}^2} \cdot \frac{1}{r^2}
+\end{equation}
+
+Where:
+\begin{itemize}
+\item \(G_{\mu\nu}\): Curvature tensor in Appleby’s model
+\item \(\rho\): Energy density
+\item \(c\): Speed of light
+\item \(c_{\text{eff}}\): Effective speed of light, scaled by the ratio of horizon sizes
+\item \(U_{\text{Appleby}}\): Gravitational potential energy in Appleby’s model
+\item \(V\): Volume associated with the region of interest
+\item \(H_{\text{obs}}\): Observer’s horizon
+\item \(\Delta_H\): Differential horizon
+\item \(H\): Total horizon of the universe
+\item \(H_{\text{universe}}\): Horizon radius of the observable universe
+\item \(E_{\text{mod}}\): Modified energy considering the universe’s size
+\item \(m\): Mass associated with the energy
+\item \(E_{\text{DE}}\): Energy associated with dark energy
+\item \(E_{\text{DM}}\): Energy associated with dark matter
+\item \(E_{\text{BH}}\): Energy associated with black holes/ordinary matter
+\item \(N_{\text{universe}}\): Number of microstates related to the area of the observable universe
+\item \(A_{\text{universe}}\): Area of the observable universe’s horizon
+\item \(S_{\text{BH}}\): Bekenstein-Hawking entropy related to the horizon area of the observable universe
+\item \(\alpha\): Proportionality constant scaling the entropy term, here tied to \(A_{\text{universe}}\)
+\item \(\rho_{\text{new}}\): New energy density after a change tied to \(N_{\text{new}}\)
+\item \(H_{\text{shrink}}\): New horizon size after shrinkage due to increased energy density
+\item \(G_{\mu\nu_{\text{standard}}}\): Curvature tensor converted to the standard energy scale of our universe
+\item \(G_{\text{DM}}\): Curvature tensor associated with dark matter in Appleby’s model
+\item \(\rho_{\text{DM}}\): Dark matter energy density
+\item \(r\): Distance from the center of mass (e.g., galactic center)
+\end{itemize}
+
+\subsection{Horizon Area for Black Hole}
+\begin{equation}
+A = 16\pi \cdot \left(\frac{GM}{c^2}\right)^2
+\end{equation}
+
+\subsection{Horizon Radius from Area}
+\begin{equation}
+R_{\text{horizon}} = \sqrt{\frac{A}{4 \pi}}
+\end{equation}
+
+\subsection{Horizon Radius in Terms of Entropy}
+\begin{equation}
+R_{\text{horizon}} = \sqrt{\frac{\hbar \cdot G \cdot S}{\pi \cdot k_B}}
+\end{equation}
+
+\subsection{Effective Speed of Light and Correlation Range}
+\begin{equation}
+R_{\text{corr}} = R_{\text{horizon}} \cdot \frac{c_{\text{eff}}}{c}
+\end{equation}
+
+Substituting \( R_{\text{horizon}} \) in \( R_{\text{corr}} \):
+
+\begin{equation}
+R_{\text{corr}} = \sqrt{\frac{\hbar \cdot G \cdot S}{\pi \cdot k_B}} \cdot \frac{H_{\text{obs}}}{H}
+\end{equation}
+
+Final Universal Correlation Range Formula:
+
+\begin{equation}
+R_{\text{corr}} = \sqrt{\frac{\hbar \cdot G \cdot S}{\pi \cdot k_B}} \cdot \frac{H_{\text{obs}}}{H}
+\end{equation}
+
+\end{document}
