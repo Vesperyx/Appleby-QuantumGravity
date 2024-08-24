@@ -97,3 +97,53 @@ G_mu_nu_standard = — (8 * pi * G * U_Appleby) / (m * v_eff² * V)
 14. Dark Matter as Curvature
 a. Curvature Tensor Related to Dark Matter
 G_DM = (rho_DM * S_BH / v_eff²) * (1 / r²)
+
+Variables and Their Descriptions
+1. Curvature Tensor
+G_mu_nu = Curvature tensor, representing the curvature of spacetime due to the presence of matter and energy
+rho = Energy density in kg/m³
+v_eff = Effective velocity, derived from the Lorentz factor v_eff = c / sqrt(1 — (A_Plank / A_universe)²)
+H_obs = Horizon size as observed by a particular observer, in meters
+Delta_H = Differential horizon size, in meters
+H = Total horizon size of the universe, in meters
+G = Gravitational constant 6.67430e-11 m³ kg^-1 s^-2
+H_universe = Horizon radius of the observable universe, in meters
+2. Effective Speed of Light
+c_eff = Effective speed of light, modified by the ratio of Planck area to universe area
+c = Speed of light in a vacuum 3.0e8 m/s
+A_Plank = Planck area, defined as (hbar * G) / c³, in m²
+A_universe = Area of the observable universe, in m²
+3. Gravitational Potential Energy
+U_Appleby = Gravitational potential energy in Appleby’s model, in joules
+V = Volume associated with the region of interest, in m³
+4. Modified Energy Adjusted for the Universe’s Size
+E_mod = Modified energy adjusted for the universe’s size, in joules
+m = Mass associated with the energy, in kilograms
+5. Energy Associated with Dark Energy
+E_DE = Energy associated with dark energy, in joules
+hbar = Reduced Planck constant, 1.0545718e-34 m² kg/s
+pi = Mathematical constant, approximately 3.14159
+6. Energy Associated with Dark Matter
+E_DM = Energy associated with dark matter, in joules
+7. Energy Associated with Black Holes/Ordinary Matter
+E_BH = Energy associated with black holes/ordinary matter, in joules
+8. Number of Microstates Related to the Area of the Observable Universe
+ln(N_universe) = Natural logarithm of the number of microstates related to the area of the observable universe
+9. Area of the Observable Universe
+A_universe = Area of the observable universe, calculated as 4 * pi * H_universe², in m²
+10. Entropy for the Observable Universe (Bekenstein-Hawking Entropy)
+S_BH = Bekenstein-Hawking entropy related to the horizon area of the observable universe, in joules per kelvin
+k_B = Boltzmann constant, 1.380649e-23 J/K
+11. Alpha Expression
+alpha = Proportionality constant scaling the entropy term, tied to A_universe
+12. Shrinking of the Universe Given an Energy Density Tied to N
+H_universe = Original horizon of the universe, in meters
+rho_new = New energy density after a change tied to ln(N_new), in kg/m³
+V_new = New volume associated with the region of interest after shrinkage, in m³
+H_shrink = New horizon size after shrinkage, in meters
+13. Curvature Converted to Our Universe Standard
+G_mu_nu_standard = Curvature tensor converted to the standard energy scale of our universe
+14. Dark Matter as Curvature
+G_DM = Curvature tensor related to dark matter
+rho_DM = Dark matter energy density, in kg/m³
+r = Distance from the center of mass, in meters
