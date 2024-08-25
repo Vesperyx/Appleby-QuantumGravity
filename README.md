@@ -62,6 +62,9 @@ thus
 A_1 + A_2 = A_3
 (or less A_3)
 
+Key equations:
+A_universe_eff_new = A_universe * sqrt(1 — (v_eff / c)²)
+
 full expressions
 1. Curvature Tensor
 G_mu_nu = rho * [ (v_eff² * H_obs² * Delta_H) / H³ — (8 * pi * G) / v_eff⁴ + (4 * pi * H_universe²)² ]
@@ -72,11 +75,11 @@ U_Appleby = — (v_eff² / (8 * pi * G)) * G_mu_nu * V
 4. Modified Energy Adjusted for the Universe’s Size
 E_mod = m * v_eff²
 5. Energy Associated with Dark Energy
-E_DE = 0.68 * sqrt( (v_eff⁵ * hbar) / (4 * pi * G) ) * sqrt( (A_universe_eff * v_eff³) / (4 * G * hbar) )
+E_DE = 0.68 * sqrt((c_eff⁵ * hbar) / (4 * pi * G)) * sqrt((A_universe_eff * c_eff³) / (4 * G * hbar))
 6. Energy Associated with Dark Matter
-E_DM = 0.27 * sqrt( (v_eff⁵ * hbar) / (4 * pi * G) ) * sqrt( (A_universe_eff * v_eff³) / (4 * G * hbar) )
+E_DM = 0.27 * sqrt((c_eff⁵ * hbar) / (4 * pi * G)) * sqrt((A_universe_eff * c_eff³) / (4 * G * hbar))
 7. Energy Associated with Black Holes/Ordinary Matter
-E_BH = 0.05 * sqrt( (v_eff⁵ * hbar) / (4 * pi * G) ) * sqrt( (A_universe_eff * v_eff³) / (4 * G * hbar) )
+E_BH = 0.05 * sqrt((c_eff⁵ * hbar) / (4 * pi * G)) * sqrt((A_universe_eff * c_eff³) / (4 * G * hbar))
 8. Number of Microstates Related to the Area of the Observable Universe
 ln(N_universe) = (A_universe_eff * v_eff³) / (4 * G * hbar)
 9. Area of the Observable Universe
